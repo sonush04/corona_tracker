@@ -1,0 +1,322 @@
+2020-03-30 14:58:12,177 POST http://127.0.0.1:50167/session/ccdb6f23245733d9df79b6dc7055b096/url {"url": "https://www.mohfw.gov.in/"}
+2020-03-30 14:58:16,231 http://127.0.0.1:50167 "POST /session/ccdb6f23245733d9df79b6dc7055b096/url HTTP/1.1" 200 14
+2020-03-30 14:58:16,232 Finished Request
+2020-03-30 14:58:16,232 POST http://127.0.0.1:50167/session/ccdb6f23245733d9df79b6dc7055b096/element {"using": "xpath", "value": "/html/body/div[2]/div/div[2]/strong/div[8]/button"}
+2020-03-30 14:58:16,256 http://127.0.0.1:50167 "POST /session/ccdb6f23245733d9df79b6dc7055b096/element HTTP/1.1" 200 88
+2020-03-30 14:58:16,257 Finished Request
+2020-03-30 14:58:16,257 POST http://127.0.0.1:50167/session/ccdb6f23245733d9df79b6dc7055b096/element/e7a74ded-5b9e-4b01-bd0f-d4ea08c25feb/click {"id": "e7a74ded-5b9e-4b01-bd0f-d4ea08c25feb"}
+2020-03-30 14:58:16,322 http://127.0.0.1:50167 "POST /session/ccdb6f23245733d9df79b6dc7055b096/element/e7a74ded-5b9e-4b01-bd0f-d4ea08c25feb/click HTTP/1.1" 200 14
+2020-03-30 14:58:16,322 Finished Request
+2020-03-30 14:58:16,322 GET http://127.0.0.1:50167/session/ccdb6f23245733d9df79b6dc7055b096/source {}
+2020-03-30 14:58:16,358 http://127.0.0.1:50167 "GET /session/ccdb6f23245733d9df79b6dc7055b096/source HTTP/1.1" 200 94077
+2020-03-30 14:58:16,387 Finished Request
+2020-03-30 14:58:16,504 oops, corono script failed.
+Traceback (most recent call last):
+  File "<ipython-input-2-83d1123c5329>", line 62, in <module>
+    stats.remove('')
+ValueError: list.remove(x): x not in list
+2020-03-30 14:59:49,167 POST http://127.0.0.1:62863/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-30 14:59:49,168 Starting new HTTP connection (1): 127.0.0.1:62863
+2020-03-30 14:59:56,892 http://127.0.0.1:62863 "POST /session HTTP/1.1" 200 683
+2020-03-30 14:59:56,893 Finished Request
+2020-03-30 14:59:56,893 POST http://127.0.0.1:62863/session/d932c0fb5045772c8af2f20cf7d57457/url {"url": "https://www.mohfw.gov.in/"}
+2020-03-30 15:00:02,048 http://127.0.0.1:62863 "POST /session/d932c0fb5045772c8af2f20cf7d57457/url HTTP/1.1" 200 14
+2020-03-30 15:00:02,049 Finished Request
+2020-03-30 15:00:02,049 POST http://127.0.0.1:62863/session/d932c0fb5045772c8af2f20cf7d57457/element {"using": "xpath", "value": "/html/body/div[2]/div/div[2]/strong/div[8]/button"}
+2020-03-30 15:00:02,081 http://127.0.0.1:62863 "POST /session/d932c0fb5045772c8af2f20cf7d57457/element HTTP/1.1" 200 88
+2020-03-30 15:00:02,082 Finished Request
+2020-03-30 15:00:02,082 POST http://127.0.0.1:62863/session/d932c0fb5045772c8af2f20cf7d57457/element/92341eb7-57cb-4294-9d45-bdc2d2240710/click {"id": "92341eb7-57cb-4294-9d45-bdc2d2240710"}
+2020-03-30 15:00:02,167 http://127.0.0.1:62863 "POST /session/d932c0fb5045772c8af2f20cf7d57457/element/92341eb7-57cb-4294-9d45-bdc2d2240710/click HTTP/1.1" 200 14
+2020-03-30 15:00:02,167 Finished Request
+2020-03-30 15:00:02,167 GET http://127.0.0.1:62863/session/d932c0fb5045772c8af2f20cf7d57457/source {}
+2020-03-30 15:00:02,206 http://127.0.0.1:62863 "GET /session/d932c0fb5045772c8af2f20cf7d57457/source HTTP/1.1" 200 94077
+2020-03-30 15:00:02,213 Finished Request
+2020-03-30 15:00:02,317 oops, corono script failed.
+Traceback (most recent call last):
+  File "<ipython-input-3-07bf8a3fd02d>", line 67, in <module>
+    changes = false
+NameError: name 'false' is not defined
+2020-03-30 15:01:08,082 POST http://127.0.0.1:62969/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-30 15:01:08,083 Starting new HTTP connection (1): 127.0.0.1:62969
+2020-03-30 15:01:15,025 http://127.0.0.1:62969 "POST /session HTTP/1.1" 200 683
+2020-03-30 15:01:15,026 Finished Request
+2020-03-30 15:01:15,027 POST http://127.0.0.1:62969/session/f7327241a1673a5377664d4664c4f139/url {"url": "https://www.mohfw.gov.in/"}
+2020-03-30 15:01:32,658 http://127.0.0.1:62969 "POST /session/f7327241a1673a5377664d4664c4f139/url HTTP/1.1" 200 14
+2020-03-30 15:01:32,659 Finished Request
+2020-03-30 15:01:32,659 POST http://127.0.0.1:62969/session/f7327241a1673a5377664d4664c4f139/element {"using": "xpath", "value": "/html/body/div[2]/div/div[2]/strong/div[8]/button"}
+2020-03-30 15:01:32,691 http://127.0.0.1:62969 "POST /session/f7327241a1673a5377664d4664c4f139/element HTTP/1.1" 200 88
+2020-03-30 15:01:32,691 Finished Request
+2020-03-30 15:01:32,691 POST http://127.0.0.1:62969/session/f7327241a1673a5377664d4664c4f139/element/219e8532-3a29-4470-b29b-c9aa26f9128e/click {"id": "219e8532-3a29-4470-b29b-c9aa26f9128e"}
+2020-03-30 15:01:32,766 http://127.0.0.1:62969 "POST /session/f7327241a1673a5377664d4664c4f139/element/219e8532-3a29-4470-b29b-c9aa26f9128e/click HTTP/1.1" 200 14
+2020-03-30 15:01:32,767 Finished Request
+2020-03-30 15:01:32,767 GET http://127.0.0.1:62969/session/f7327241a1673a5377664d4664c4f139/source {}
+2020-03-30 15:01:32,801 http://127.0.0.1:62969 "GET /session/f7327241a1673a5377664d4664c4f139/source HTTP/1.1" 200 94077
+2020-03-30 15:01:32,803 Finished Request
+2020-03-30 15:01:32,874 oops, corono script failed.
+Traceback (most recent call last):
+  File "<ipython-input-4-b4c5a80744fa>", line 74, in <module>
+    changes = true
+NameError: name 'true' is not defined
+2020-03-30 15:02:17,407 POST http://127.0.0.1:63073/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-30 15:02:17,407 Starting new HTTP connection (1): 127.0.0.1:63073
+2020-03-30 15:02:23,611 http://127.0.0.1:63073 "POST /session HTTP/1.1" 200 683
+2020-03-30 15:02:23,611 Finished Request
+2020-03-30 15:02:23,612 POST http://127.0.0.1:63073/session/7b4305ac199273fa04cf8890edb016c6/url {"url": "https://www.mohfw.gov.in/"}
+2020-03-30 15:02:26,276 http://127.0.0.1:63073 "POST /session/7b4305ac199273fa04cf8890edb016c6/url HTTP/1.1" 200 14
+2020-03-30 15:02:26,276 Finished Request
+2020-03-30 15:02:26,277 POST http://127.0.0.1:63073/session/7b4305ac199273fa04cf8890edb016c6/element {"using": "xpath", "value": "/html/body/div[2]/div/div[2]/strong/div[8]/button"}
+2020-03-30 15:02:26,301 http://127.0.0.1:63073 "POST /session/7b4305ac199273fa04cf8890edb016c6/element HTTP/1.1" 200 88
+2020-03-30 15:02:26,302 Finished Request
+2020-03-30 15:02:26,303 POST http://127.0.0.1:63073/session/7b4305ac199273fa04cf8890edb016c6/element/06ef9fb7-15f3-48ee-8ee9-2c7eca4f09df/click {"id": "06ef9fb7-15f3-48ee-8ee9-2c7eca4f09df"}
+2020-03-30 15:02:26,377 http://127.0.0.1:63073 "POST /session/7b4305ac199273fa04cf8890edb016c6/element/06ef9fb7-15f3-48ee-8ee9-2c7eca4f09df/click HTTP/1.1" 200 14
+2020-03-30 15:02:26,377 Finished Request
+2020-03-30 15:02:26,378 GET http://127.0.0.1:63073/session/7b4305ac199273fa04cf8890edb016c6/source {}
+2020-03-30 15:02:26,414 http://127.0.0.1:63073 "GET /session/7b4305ac199273fa04cf8890edb016c6/source HTTP/1.1" 200 94077
+2020-03-30 15:02:26,417 Finished Request
+2020-03-30 15:02:32,722 NEW State Andhra Pradesh got corona virus:['19', '1', '0']
+2020-03-30 15:02:32,723 NEW State Andaman and Nicobar Islands got corona virus:['9', '0', '0']
+2020-03-30 15:02:32,723 NEW State Bihar got corona virus:['11', '0', '1']
+2020-03-30 15:02:32,723 NEW State Chandigarh got corona virus:['8', '0', '0']
+2020-03-30 15:02:32,723 NEW State Chhattisgarh got corona virus:['7', '0', '0']
+2020-03-30 15:02:32,723 NEW State Delhi got corona virus:['53', '6', '2']
+2020-03-30 15:02:32,723 NEW State Goa got corona virus:['5', '0', '0']
+2020-03-30 15:02:32,724 NEW State Gujarat got corona virus:['58', '1', '5']
+2020-03-30 15:02:32,724 NEW State Haryana got corona virus:['33', '17', '0']
+2020-03-30 15:02:32,724 NEW State Himachal Pradesh got corona virus:['3', '0', '1']
+2020-03-30 15:02:32,724 NEW State Jammu and Kashmir got corona virus:['31', '1', '2']
+2020-03-30 15:02:32,724 NEW State Karnataka got corona virus:['80', '5', '3']
+2020-03-30 15:02:32,724 NEW State Kerala got corona virus:['194', '19', '1']
+2020-03-30 15:02:32,724 NEW State Ladakh got corona virus:['13', '3', '0']
+2020-03-30 15:02:32,725 NEW State Madhya Pradesh got corona virus:['33', '0', '2']
+2020-03-30 15:02:32,725 NEW State Maharashtra got corona virus:['193', '25', '8']
+2020-03-30 15:02:32,725 NEW State Manipur got corona virus:['1', '0', '0']
+2020-03-30 15:02:32,725 NEW State Mizoram got corona virus:['1', '0', '0']
+2020-03-30 15:02:32,725 NEW State Odisha got corona virus:['3', '0', '0']
+2020-03-30 15:02:32,725 NEW State Puducherry got corona virus:['1', '0', '0']
+2020-03-30 15:02:32,725 NEW State Punjab got corona virus:['38', '1', '1']
+2020-03-30 15:02:32,726 NEW State Rajasthan got corona virus:['57', '3', '0']
+2020-03-30 15:02:32,726 NEW State Tamil Nadu got corona virus:['50', '4', '1']
+2020-03-30 15:02:32,726 NEW State Telengana got corona virus:['69', '1', '1']
+2020-03-30 15:02:32,726 NEW State Uttarakhand got corona virus:['7', '2', '0']
+2020-03-30 15:02:32,726 NEW State Uttar Pradesh got corona virus:['75', '11', '0']
+2020-03-30 15:02:32,726 NEW State West Bengal got corona virus:['19', '0', '1']
+2020-03-30 15:02:32,726 NEW State Total number of confirmed cases in India got corona virus:['1071', '100', '29']
+2020-03-30 15:02:32,726 oops, corono script failed.
+Traceback (most recent call last):
+  File "<ipython-input-5-033a2309f55e>", line 87, in <module>
+    if changed:
+NameError: name 'changed' is not defined
+2020-03-30 15:03:12,275 POST http://127.0.0.1:63147/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-30 15:03:12,276 Starting new HTTP connection (1): 127.0.0.1:63147
+2020-03-30 15:03:18,569 http://127.0.0.1:63147 "POST /session HTTP/1.1" 200 684
+2020-03-30 15:03:18,570 Finished Request
+2020-03-30 15:03:18,570 POST http://127.0.0.1:63147/session/9e2b91f7b95d3bb69a89b4219621e4f1/url {"url": "https://www.mohfw.gov.in/"}
+2020-03-30 15:03:57,182 http://127.0.0.1:63147 "POST /session/9e2b91f7b95d3bb69a89b4219621e4f1/url HTTP/1.1" 200 14
+2020-03-30 15:03:57,182 Finished Request
+2020-03-30 15:03:57,183 POST http://127.0.0.1:63147/session/9e2b91f7b95d3bb69a89b4219621e4f1/element {"using": "xpath", "value": "/html/body/div[2]/div/div[2]/strong/div[8]/button"}
+2020-03-30 15:03:57,214 http://127.0.0.1:63147 "POST /session/9e2b91f7b95d3bb69a89b4219621e4f1/element HTTP/1.1" 200 88
+2020-03-30 15:03:57,214 Finished Request
+2020-03-30 15:03:57,214 POST http://127.0.0.1:63147/session/9e2b91f7b95d3bb69a89b4219621e4f1/element/48891820-da10-4d1a-ae0e-25af639a2d5f/click {"id": "48891820-da10-4d1a-ae0e-25af639a2d5f"}
+2020-03-30 15:03:57,290 http://127.0.0.1:63147 "POST /session/9e2b91f7b95d3bb69a89b4219621e4f1/element/48891820-da10-4d1a-ae0e-25af639a2d5f/click HTTP/1.1" 200 14
+2020-03-30 15:03:57,290 Finished Request
+2020-03-30 15:03:57,290 GET http://127.0.0.1:63147/session/9e2b91f7b95d3bb69a89b4219621e4f1/source {}
+2020-03-30 15:03:57,328 http://127.0.0.1:63147 "GET /session/9e2b91f7b95d3bb69a89b4219621e4f1/source HTTP/1.1" 200 94077
+2020-03-30 15:03:57,330 Finished Request
+2020-03-30 15:03:57,391 NEW State Andhra Pradesh got corona virus:['19', '1', '0']
+2020-03-30 15:03:57,391 NEW State Andaman and Nicobar Islands got corona virus:['9', '0', '0']
+2020-03-30 15:03:57,391 NEW State Bihar got corona virus:['11', '0', '1']
+2020-03-30 15:03:57,391 NEW State Chandigarh got corona virus:['8', '0', '0']
+2020-03-30 15:03:57,392 NEW State Chhattisgarh got corona virus:['7', '0', '0']
+2020-03-30 15:03:57,392 NEW State Delhi got corona virus:['53', '6', '2']
+2020-03-30 15:03:57,392 NEW State Goa got corona virus:['5', '0', '0']
+2020-03-30 15:03:57,392 NEW State Gujarat got corona virus:['58', '1', '5']
+2020-03-30 15:03:57,393 NEW State Haryana got corona virus:['33', '17', '0']
+2020-03-30 15:03:57,393 NEW State Himachal Pradesh got corona virus:['3', '0', '1']
+2020-03-30 15:03:57,393 NEW State Jammu and Kashmir got corona virus:['31', '1', '2']
+2020-03-30 15:03:57,393 NEW State Karnataka got corona virus:['80', '5', '3']
+2020-03-30 15:03:57,393 NEW State Kerala got corona virus:['194', '19', '1']
+2020-03-30 15:03:57,393 NEW State Ladakh got corona virus:['13', '3', '0']
+2020-03-30 15:03:57,393 NEW State Madhya Pradesh got corona virus:['33', '0', '2']
+2020-03-30 15:03:57,394 NEW State Maharashtra got corona virus:['193', '25', '8']
+2020-03-30 15:03:57,394 NEW State Manipur got corona virus:['1', '0', '0']
+2020-03-30 15:03:57,394 NEW State Mizoram got corona virus:['1', '0', '0']
+2020-03-30 15:03:57,394 NEW State Odisha got corona virus:['3', '0', '0']
+2020-03-30 15:03:57,394 NEW State Puducherry got corona virus:['1', '0', '0']
+2020-03-30 15:03:57,395 NEW State Punjab got corona virus:['38', '1', '1']
+2020-03-30 15:03:57,395 NEW State Rajasthan got corona virus:['57', '3', '0']
+2020-03-30 15:03:57,395 NEW State Tamil Nadu got corona virus:['50', '4', '1']
+2020-03-30 15:03:57,395 NEW State Telengana got corona virus:['69', '1', '1']
+2020-03-30 15:03:57,395 NEW State Uttarakhand got corona virus:['7', '2', '0']
+2020-03-30 15:03:57,395 NEW State Uttar Pradesh got corona virus:['75', '11', '0']
+2020-03-30 15:03:57,395 NEW State West Bengal got corona virus:['19', '0', '1']
+2020-03-30 15:03:57,395 NEW State Total number of confirmed cases in India got corona virus:['1071', '100', '29']
+2020-03-30 15:04:31,736 POST http://127.0.0.1:63253/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-30 15:04:31,736 Starting new HTTP connection (1): 127.0.0.1:63253
+2020-03-30 15:04:37,552 http://127.0.0.1:63253 "POST /session HTTP/1.1" 200 683
+2020-03-30 15:04:37,552 Finished Request
+2020-03-30 15:04:37,553 POST http://127.0.0.1:63253/session/87bd7ba24bd05d4f583678ae0a9437c5/url {"url": "https://www.mohfw.gov.in/"}
+2020-03-30 15:04:42,528 http://127.0.0.1:63253 "POST /session/87bd7ba24bd05d4f583678ae0a9437c5/url HTTP/1.1" 200 14
+2020-03-30 15:04:42,529 Finished Request
+2020-03-30 15:04:42,529 POST http://127.0.0.1:63253/session/87bd7ba24bd05d4f583678ae0a9437c5/element {"using": "xpath", "value": "/html/body/div[2]/div/div[2]/strong/div[8]/button"}
+2020-03-30 15:04:42,555 http://127.0.0.1:63253 "POST /session/87bd7ba24bd05d4f583678ae0a9437c5/element HTTP/1.1" 200 88
+2020-03-30 15:04:42,556 Finished Request
+2020-03-30 15:04:42,556 POST http://127.0.0.1:63253/session/87bd7ba24bd05d4f583678ae0a9437c5/element/c7f435c3-9b9e-41bd-90ee-6a704999aee5/click {"id": "c7f435c3-9b9e-41bd-90ee-6a704999aee5"}
+2020-03-30 15:04:42,625 http://127.0.0.1:63253 "POST /session/87bd7ba24bd05d4f583678ae0a9437c5/element/c7f435c3-9b9e-41bd-90ee-6a704999aee5/click HTTP/1.1" 200 14
+2020-03-30 15:04:42,626 Finished Request
+2020-03-30 15:04:42,626 GET http://127.0.0.1:63253/session/87bd7ba24bd05d4f583678ae0a9437c5/source {}
+2020-03-30 15:04:42,667 http://127.0.0.1:63253 "GET /session/87bd7ba24bd05d4f583678ae0a9437c5/source HTTP/1.1" 200 94077
+2020-03-30 15:04:42,671 Finished Request
+2020-03-30 15:05:32,652 POST http://127.0.0.1:63335/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-30 15:05:32,652 Starting new HTTP connection (1): 127.0.0.1:63335
+2020-03-30 15:05:38,426 http://127.0.0.1:63335 "POST /session HTTP/1.1" 200 683
+2020-03-30 15:05:38,427 Finished Request
+2020-03-30 15:05:38,427 POST http://127.0.0.1:63335/session/c35592176e94a72ea79656a7efdcaf3b/url {"url": "https://www.mohfw.gov.in/"}
+2020-03-30 15:05:43,240 http://127.0.0.1:63335 "POST /session/c35592176e94a72ea79656a7efdcaf3b/url HTTP/1.1" 200 14
+2020-03-30 15:05:43,241 Finished Request
+2020-03-30 15:05:43,241 POST http://127.0.0.1:63335/session/c35592176e94a72ea79656a7efdcaf3b/element {"using": "xpath", "value": "/html/body/div[2]/div/div[2]/strong/div[8]/button"}
+2020-03-30 15:05:43,266 http://127.0.0.1:63335 "POST /session/c35592176e94a72ea79656a7efdcaf3b/element HTTP/1.1" 200 88
+2020-03-30 15:05:43,266 Finished Request
+2020-03-30 15:05:43,266 POST http://127.0.0.1:63335/session/c35592176e94a72ea79656a7efdcaf3b/element/0fc8a146-90f2-43f4-9d8f-f73b40d4f494/click {"id": "0fc8a146-90f2-43f4-9d8f-f73b40d4f494"}
+2020-03-30 15:05:43,335 http://127.0.0.1:63335 "POST /session/c35592176e94a72ea79656a7efdcaf3b/element/0fc8a146-90f2-43f4-9d8f-f73b40d4f494/click HTTP/1.1" 200 14
+2020-03-30 15:05:43,335 Finished Request
+2020-03-30 15:05:43,336 GET http://127.0.0.1:63335/session/c35592176e94a72ea79656a7efdcaf3b/source {}
+2020-03-30 15:05:43,378 http://127.0.0.1:63335 "GET /session/c35592176e94a72ea79656a7efdcaf3b/source HTTP/1.1" 200 94077
+2020-03-30 15:05:43,380 Finished Request
+2020-03-30 16:42:00,711 POST http://127.0.0.1:50184/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-30 16:42:00,801 Starting new HTTP connection (1): 127.0.0.1:50184
+2020-03-30 16:42:07,208 http://127.0.0.1:50184 "POST /session HTTP/1.1" 200 683
+2020-03-30 16:42:07,209 Finished Request
+2020-03-30 16:42:07,210 POST http://127.0.0.1:50184/session/1c376c607ca5a186ce980b90e7c24510/url {"url": "https://www.mohfw.gov.in/"}
+2020-03-30 16:42:21,372 http://127.0.0.1:50184 "POST /session/1c376c607ca5a186ce980b90e7c24510/url HTTP/1.1" 200 14
+2020-03-30 16:42:21,373 Finished Request
+2020-03-30 16:42:21,374 POST http://127.0.0.1:50184/session/1c376c607ca5a186ce980b90e7c24510/element {"using": "xpath", "value": "/html/body/div[2]/div/div[2]/strong/div[8]/button"}
+2020-03-30 16:42:21,403 http://127.0.0.1:50184 "POST /session/1c376c607ca5a186ce980b90e7c24510/element HTTP/1.1" 200 88
+2020-03-30 16:42:21,403 Finished Request
+2020-03-30 16:42:21,404 POST http://127.0.0.1:50184/session/1c376c607ca5a186ce980b90e7c24510/element/b83912e9-d3c6-4170-ae6a-13ed2cc68b14/click {"id": "b83912e9-d3c6-4170-ae6a-13ed2cc68b14"}
+2020-03-30 16:42:21,470 http://127.0.0.1:50184 "POST /session/1c376c607ca5a186ce980b90e7c24510/element/b83912e9-d3c6-4170-ae6a-13ed2cc68b14/click HTTP/1.1" 200 14
+2020-03-30 16:42:21,470 Finished Request
+2020-03-30 16:42:21,471 GET http://127.0.0.1:50184/session/1c376c607ca5a186ce980b90e7c24510/source {}
+2020-03-30 16:42:21,490 http://127.0.0.1:50184 "GET /session/1c376c607ca5a186ce980b90e7c24510/source HTTP/1.1" 200 95025
+2020-03-30 16:42:21,593 Finished Request
+2020-03-30 16:42:22,203 oops, corono script failed.
+Traceback (most recent call last):
+  File "<ipython-input-18-06ce09cfce35>", line 95, in <module>
+    table = tabulate(stats, headers=SHORT_HEADERS, tablefmt='psql')
+NameError: name 'SHORT_HEADERS' is not defined
+2020-03-30 16:43:13,561 POST http://127.0.0.1:50268/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-30 16:43:13,562 Starting new HTTP connection (1): 127.0.0.1:50268
+2020-03-30 16:43:18,660 http://127.0.0.1:50268 "POST /session HTTP/1.1" 200 682
+2020-03-30 16:43:18,660 Finished Request
+2020-03-30 16:43:18,661 POST http://127.0.0.1:50268/session/48af84ab5292dd68a3864213b7b44340/url {"url": "https://www.mohfw.gov.in/"}
+2020-03-30 16:43:36,467 http://127.0.0.1:50268 "POST /session/48af84ab5292dd68a3864213b7b44340/url HTTP/1.1" 200 14
+2020-03-30 16:43:36,468 Finished Request
+2020-03-30 16:43:36,468 POST http://127.0.0.1:50268/session/48af84ab5292dd68a3864213b7b44340/element {"using": "xpath", "value": "/html/body/div[2]/div/div[2]/strong/div[8]/button"}
+2020-03-30 16:43:36,492 http://127.0.0.1:50268 "POST /session/48af84ab5292dd68a3864213b7b44340/element HTTP/1.1" 200 88
+2020-03-30 16:43:36,493 Finished Request
+2020-03-30 16:43:36,493 POST http://127.0.0.1:50268/session/48af84ab5292dd68a3864213b7b44340/element/1836ef28-a683-4c1a-95e4-a462090d8b92/click {"id": "1836ef28-a683-4c1a-95e4-a462090d8b92"}
+2020-03-30 16:43:36,552 http://127.0.0.1:50268 "POST /session/48af84ab5292dd68a3864213b7b44340/element/1836ef28-a683-4c1a-95e4-a462090d8b92/click HTTP/1.1" 200 14
+2020-03-30 16:43:36,553 Finished Request
+2020-03-30 16:43:36,554 GET http://127.0.0.1:50268/session/48af84ab5292dd68a3864213b7b44340/source {}
+2020-03-30 16:43:36,586 http://127.0.0.1:50268 "GET /session/48af84ab5292dd68a3864213b7b44340/source HTTP/1.1" 200 95025
+2020-03-30 16:43:36,613 Finished Request
+2020-03-30 16:43:37,138 Sending Please find CoronaVirus Summary for India below:
+
+```+--------+------------------------------------------+------+------+------+
+| S.No   | St                                       |   In |   Cu |   Dt |
+|--------+------------------------------------------+------+------+------|
+| 1      | Andhra Pradesh                           |   19 |    1 |    0 |
+| 2      | Andaman and Nicobar Islands              |    9 |    0 |    0 |
+| 3      | Bihar                                    |   11 |    0 |    1 |
+| 4      | Chandigarh                               |    8 |    0 |    0 |
+| 5      | Chhattisgarh                             |    7 |    0 |    0 |
+| 6      | Delhi                                    |   53 |    6 |    2 |
+| 7      | Goa                                      |    5 |    0 |    0 |
+| 8      | Gujarat                                  |   58 |    1 |    5 |
+| 9      | Haryana                                  |   33 |   17 |    0 |
+| 10     | Himachal Pradesh                         |    3 |    0 |    1 |
+| 11     | Jammu and Kashmir                        |   31 |    1 |    2 |
+| 12     | Karnataka                                |   80 |    5 |    3 |
+| 13     | Kerala                                   |  194 |   19 |    1 |
+| 14     | Ladakh                                   |   13 |    3 |    0 |
+| 15     | Madhya Pradesh                           |   33 |    0 |    2 |
+| 16     | Maharashtra                              |  193 |   25 |    8 |
+| 17     | Manipur                                  |    1 |    0 |    0 |
+| 18     | Mizoram                                  |    1 |    0 |    0 |
+| 19     | Odisha                                   |    3 |    0 |    0 |
+| 20     | Puducherry                               |    1 |    0 |    0 |
+| 21     | Punjab                                   |   38 |    1 |    1 |
+| 22     | Rajasthan                                |   57 |    3 |    0 |
+| 23     | Tamil Nadu                               |   50 |    4 |    1 |
+| 24     | Telengana                                |   69 |    1 |    1 |
+| 25     | Uttarakhand                              |    7 |    2 |    0 |
+| 26     | Uttar Pradesh                            |   75 |   11 |    0 |
+| 27     | West Bengal                              |   19 |    0 |    1 |
+|        | Total number of confirmed cases in India | 1071 |  100 |   29 |
++--------+------------------------------------------+------+------+------+``` to slack
+2020-03-30 16:43:37,138 oops, corono script failed.
+Traceback (most recent call last):
+  File "<ipython-input-19-4891e3b80080>", line 98, in <module>
+    payload = { 'text': msg }
+NameError: name 'msg' is not defined
+2020-03-30 16:44:36,126 POST http://127.0.0.1:50339/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-30 16:44:36,127 Starting new HTTP connection (1): 127.0.0.1:50339
+2020-03-30 16:44:41,524 http://127.0.0.1:50339 "POST /session HTTP/1.1" 200 684
+2020-03-30 16:44:41,525 Finished Request
+2020-03-30 16:44:41,525 POST http://127.0.0.1:50339/session/3e90147356dee0c6eca2fbc882ef6640/url {"url": "https://www.mohfw.gov.in/"}
+2020-03-30 16:44:50,972 http://127.0.0.1:50339 "POST /session/3e90147356dee0c6eca2fbc882ef6640/url HTTP/1.1" 200 14
+2020-03-30 16:44:50,973 Finished Request
+2020-03-30 16:44:50,973 POST http://127.0.0.1:50339/session/3e90147356dee0c6eca2fbc882ef6640/element {"using": "xpath", "value": "/html/body/div[2]/div/div[2]/strong/div[8]/button"}
+2020-03-30 16:44:51,591 http://127.0.0.1:50339 "POST /session/3e90147356dee0c6eca2fbc882ef6640/element HTTP/1.1" 404 1077
+2020-03-30 16:44:51,591 Finished Request
+2020-03-30 16:45:13,624 POST http://127.0.0.1:50384/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-30 16:45:13,624 Starting new HTTP connection (1): 127.0.0.1:50384
+2020-03-30 16:45:18,781 http://127.0.0.1:50384 "POST /session HTTP/1.1" 200 682
+2020-03-30 16:45:18,781 Finished Request
+2020-03-30 16:45:18,782 POST http://127.0.0.1:50384/session/18555be90e2ea87f6e09247fd29983d6/url {"url": "https://www.mohfw.gov.in/"}
+2020-03-30 16:45:27,055 http://127.0.0.1:50384 "POST /session/18555be90e2ea87f6e09247fd29983d6/url HTTP/1.1" 200 14
+2020-03-30 16:45:27,056 Finished Request
+2020-03-30 16:45:27,056 POST http://127.0.0.1:50384/session/18555be90e2ea87f6e09247fd29983d6/element {"using": "xpath", "value": "/html/body/div[2]/div/div[2]/strong/div[8]/button"}
+2020-03-30 16:45:27,085 http://127.0.0.1:50384 "POST /session/18555be90e2ea87f6e09247fd29983d6/element HTTP/1.1" 200 88
+2020-03-30 16:45:27,085 Finished Request
+2020-03-30 16:45:27,085 POST http://127.0.0.1:50384/session/18555be90e2ea87f6e09247fd29983d6/element/77007678-e75e-4ed4-86c8-83e8f8eaec0b/click {"id": "77007678-e75e-4ed4-86c8-83e8f8eaec0b"}
+2020-03-30 16:45:27,165 http://127.0.0.1:50384 "POST /session/18555be90e2ea87f6e09247fd29983d6/element/77007678-e75e-4ed4-86c8-83e8f8eaec0b/click HTTP/1.1" 200 14
+2020-03-30 16:45:27,166 Finished Request
+2020-03-30 16:45:27,166 GET http://127.0.0.1:50384/session/18555be90e2ea87f6e09247fd29983d6/source {}
+2020-03-30 16:45:27,186 http://127.0.0.1:50384 "GET /session/18555be90e2ea87f6e09247fd29983d6/source HTTP/1.1" 200 95025
+2020-03-30 16:45:27,226 Finished Request
+2020-03-30 16:45:27,497 Sending Please find CoronaVirus Summary for India below:
+
+```+--------+------------------------------------------+------+------+------+
+| S.No   | St                                       |   In |   Cu |   Dt |
+|--------+------------------------------------------+------+------+------|
+| 1      | Andhra Pradesh                           |   19 |    1 |    0 |
+| 2      | Andaman and Nicobar Islands              |    9 |    0 |    0 |
+| 3      | Bihar                                    |   11 |    0 |    1 |
+| 4      | Chandigarh                               |    8 |    0 |    0 |
+| 5      | Chhattisgarh                             |    7 |    0 |    0 |
+| 6      | Delhi                                    |   53 |    6 |    2 |
+| 7      | Goa                                      |    5 |    0 |    0 |
+| 8      | Gujarat                                  |   58 |    1 |    5 |
+| 9      | Haryana                                  |   33 |   17 |    0 |
+| 10     | Himachal Pradesh                         |    3 |    0 |    1 |
+| 11     | Jammu and Kashmir                        |   31 |    1 |    2 |
+| 12     | Karnataka                                |   80 |    5 |    3 |
+| 13     | Kerala                                   |  194 |   19 |    1 |
+| 14     | Ladakh                                   |   13 |    3 |    0 |
+| 15     | Madhya Pradesh                           |   33 |    0 |    2 |
+| 16     | Maharashtra                              |  193 |   25 |    8 |
+| 17     | Manipur                                  |    1 |    0 |    0 |
+| 18     | Mizoram                                  |    1 |    0 |    0 |
+| 19     | Odisha                                   |    3 |    0 |    0 |
+| 20     | Puducherry                               |    1 |    0 |    0 |
+| 21     | Punjab                                   |   38 |    1 |    1 |
+| 22     | Rajasthan                                |   57 |    3 |    0 |
+| 23     | Tamil Nadu                               |   50 |    4 |    1 |
+| 24     | Telengana                                |   69 |    1 |    1 |
+| 25     | Uttarakhand                              |    7 |    2 |    0 |
+| 26     | Uttar Pradesh                            |   75 |   11 |    0 |
+| 27     | West Bengal                              |   19 |    0 |    1 |
+|        | Total number of confirmed cases in India | 1071 |  100 |   29 |
++--------+------------------------------------------+------+------+------+``` to slack
+2020-03-30 16:45:28,303 Starting new HTTPS connection (1): hooks.slack.com:443
+2020-03-30 16:45:32,380 https://hooks.slack.com:443 "POST /services/T010G0W61RP/B0110GNN5RA/AjfuXAOWDixnVRNIPH467tlw HTTP/1.1" 200 22
